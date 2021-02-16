@@ -1,14 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 //
-import Bughunter from 'bughunter-ui-component-library'
-import 'bughunter-ui-component-library/dist/index.css'
-
-const { Button, Input } = Bughunter
+import { Button } from 'bughunter-ui-component-library'
+import { Input } from 'bughunter-ui-component-library'
 
 const App = () => {
-  console.log('🚀 ~ file: index.js ~ line 5 ~ Button', Bughunter)
-
   return (
     <div>
       <Button text='Create React Library Example 😄' />
